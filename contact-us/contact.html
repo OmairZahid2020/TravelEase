@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - TravelEase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="contact-page">
+    <section class="contact-form-section">
+      <h1>Contact Us</h1>
+      <form id="contactForm" novalidate>
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+        <div id="formMessage"></div>
+      </form>
+    </section>
+
+    <section class="contact-details">
+      <h2>Our Office</h2>
+      <p>TravelEase Headquarters</p>
+      <p>123 Explorer Street, Adventure City</p>
+      <p>Email: contact@travelease.com</p>
+      <p>Phone: +1 (555) 123-4567</p>
+    </section>
+
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <img
+        src="https://maps.googleapis.com/maps/api/staticmap?center=New+York,NY&zoom=13&size=600x300&maptype=roadmap&key=YOUR_API_KEY"
+        alt="Map to office location"
+      />
+    </section>
+
+    <footer class="social-links">
+      <h2>Follow Us</h2>
+      <a href="https://facebook.com/TravelEase" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://twitter.com/TravelEase" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <a href="https://instagram.com/TravelEase" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

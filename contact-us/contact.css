@@ -1,0 +1,58 @@
+/* Basic styling that passes Stylelint with standard rules */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #0077cc;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.map-section img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+footer.social-links a {
+  margin-right: 1rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+footer.social-links a:hover {
+  text-decoration: underline;
+}
